@@ -79,8 +79,10 @@ img {
 @media screen and (max-width: 768px) {
 
 
-  body{
-    background-color: red;
+  *{
+    margin:0 auto;
+    padding:0
+    border: 1px solid black;
   }
 
 
@@ -99,6 +101,7 @@ img {
 
   .container.grey {
     margin:5% 2% 10% 2%;
+    padding: 5% 2% 5% 2%;
     background-color: #f9f9f9;
   }
 
@@ -126,8 +129,8 @@ img {
 
   #lezioni .row>.left,
   #lezioni .row>.right{
-    width: 30%;
-    margin: 0 5%;
+    width: 35%;
+    margin: 0 2%;
     padding: 0 20px;
   }
 
@@ -145,11 +148,11 @@ img {
   #why .row>.third {
     width:100%;
     margin: 0 auto;
-    padding:0 3%;
+    padding:0;
   }
 
   #why .row img {
-    max-width: 20%;
+    max-width: 15%;
     height: auto;
   }
 
@@ -173,7 +176,6 @@ img {
 @media screen and (max-width: 419px) {
 
   body{
-    background-color: green;
     font-size: 0.9em;
   }
 
