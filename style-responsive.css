@@ -90,11 +90,17 @@ img {
   }
 
   .container {
-    margin:20% 4%;
-    padding: 10%;
+    margin:0 4% 20% 4%;
+    padding: 10% 10% 0 10%;
     text-align: center;
     border-radius: 10px;
   }
+
+  .container.grey {
+    margin:20% 4% 20% 4%;
+    background-color: #f9f9f9;
+  }
+
 
   .row {
     width: 100%;
